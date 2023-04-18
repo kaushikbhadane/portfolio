@@ -1,0 +1,78 @@
+.introContainer{
+    margin: 5% 0 0 0;
+    text-align: center;
+    background-color: #1a1817 ;
+    height: 60vh;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.introContent{
+    margin: 5% 0 1% 0;
+}
+.introContent h3{
+    text-align: start;
+    color: #ffc107;
+    font-size: 1rem
+    
+}
+.introContent h1{
+    font-weight: 800;
+    font-size:4rem;
+    text-align: center;
+    color: #ffc107;
+}
+.introContent h2{
+    font-size: 2rem;
+}
+.subtitle{
+    color: white;
+}
+.projects{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    /* align-items: centre; */
+    /* border: 1px solid yellow; */
+    margin: 0;
+    padding: 0;
+}
+.projects p{
+    color: white;
+}
+
+.sampleProject{
+    width: 100%;
+    padding: 0;
+    /* height: auto; */
+    /* aspect-ratio: 1/1; */
+    /* border: 1px solid red; */
+}
+.project{
+    width:100%;
+    padding: 0;
+    height: auto;
+    /* aspect-ratio: 16/9; */
+    /* background-size:cover; */
+    object-fit:contain;
+    /* border: 5px solid #ffc107; */
+    border: 5px solid whitesmoke;
+}
+.project .overlay{
+    color: black;
+}
+@media screen and (max-width:600px) {
+    html{
+        font-size: 14px;
+    }
+    .introContainer{
+        padding: 15% 5% 5% 5% ;
+        height: 40vh;
+    }
+    .project .overlay{
+        background: #1a1817;
+    }
+}
