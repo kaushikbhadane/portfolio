@@ -75,4 +75,7 @@
     .project .overlay{
         background: #1a1817;
     }
+    .text{
+        background : rgba(black, 0.5);
+        }        
 }
